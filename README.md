@@ -58,7 +58,7 @@ Also very useful is the wildcard parameter. For example, if you wanted to list a
 
 Finally, as you continue to navigate the file directory from the command line it can be useful to be able to create new folders. To do this, use the **mkdir** command, which stands for **make directory**. Try it out with **mkdir NewFolderName**. Afterward, use the **ls** command to see that there is indeed a new folder, and if you wish, move into the new folder using the **cd** command.
 
-## Cloning GitHub repositories and Learn.co lessons
+## Cloning GitHub repositories and Canvas lessons
 
 You have already read a little bit about GitHub and how it's used to share code. Since you can now navigate the file directory using the command line, you're ready to download some course materials from GitHub to your local environment. In practice, you will do the following:
 
@@ -81,7 +81,7 @@ You'll be redirected to the associated GitHub repository like this.
 * 
 <img src="images/before-fork.png">
 
-One of two things will happen. Either it'll pop up a modal (window) and if you scroll to the bottom of it you'll see it says that you already have a fork. That is quite possible - Learn auto-forks certain lessons for you. If that's the case, just click on the link to view your existing fork.
+One of two things will happen. Either it'll pop up a modal (window) and if you scroll to the bottom of it you'll see it says that you already have a fork. If that's the case, just click on the link to view your existing fork.
 
 If you don't already have a fork, you'll be redirected to your new personal copy of the repository:
 
@@ -101,7 +101,7 @@ Make sure to activate your conda virtual environment in your terminal first by t
 
 > **Note:** *To stop a Jupyter Notebook, go to your command line where the notebook is running and press the **control** key + the letter **c*** (**`ctrl`**+**`c`**).
 
-Then click on the `index.ipynb` file which is the Jupyter Notebook we will be using in this and future labs and lessons. This will open a new tab where you will see the same content from Learn!
+Then click on the `index.ipynb` file which is the Jupyter Notebook we will be using in this and future labs and lessons. This will open a new tab where you will see the same content you saw in IllumiDesk on Canvas!
 
 ## Summary
 
