@@ -6,6 +6,7 @@
 In this lesson you will practice the workflow you will be using when you want to work _locally_ instead of in IllumiDesk on Canvas, and also get some hands-on practice with important tools that you will need to be familiar with as a professional Data Scientist: the command line, git, GitHub, and running Jupyter Notebooks locally.
 
 ## Objectives
+
 You will be able to:
 
 * Use basic commands to navigate the command line
@@ -15,11 +16,11 @@ You will be able to:
 
 ## Setting the Stage
 
-Remember **Code Lessons** and **Labs** on Canvas and how you need to use Illumidesk (by clicking the grey button below) to start coding? 
+Remember how **Code Lessons** and **Labs** on Canvas use Illumidesk (by clicking the grey button below) to open notebooks and start coding? 
 
-<img src="images/illumidesk_4.png" width="900">
+<img src="images/illumidesk_4.png" width="600">
 
-When you're a professional Data Scientist you won't have access to Illumidesk, but you'll need to get everything up and running to work on your local machine. Luckily, you've already set up a professional data science environment a few lessons back, but in this lesson you'll learn how to actually run your code on your local machine instead of by using Illumidesk!
+When you're a professional Data Scientist, you won't have access to Illumidesk, but you'll need to get everything up and running to work on your local machine. Luckily, you've already set up a professional data science environment, and in this lesson you'll learn how to actually run your code on your local machine instead of through Illumidesk!
 
 ## The Command Line
 
@@ -35,28 +36,27 @@ The first command to try out is **pwd** which stands for **print working directo
 
 ### cd
 
-The next essential command is **cd** which stands for **change directory**. This allows you to navigate to different folders on your computer's hard drive. Typing cd by itself will automatically take you to your home directory. Typing cd and a folder name will take you to that folder. Typing cd .. will move you one folder up in the hierarchy. Play around and trying moving between folders for a minute or two.
+The next essential command is **cd** which stands for **change directory**. This allows you to navigate to different folders on your computer's hard drive. Typing `cd` by itself (or `cd ~`) will automatically take you to your home directory. Typing `cd` and a folder name will take you to that folder. Typing `cd ..` will move you one folder up in the hierarchy. Play around and trying moving between folders for a minute or two.
 
 ### Tab Completion
 
 An extraordinarly useful feature when working with the command line is tab completion. This allows you to hit the tab button to autocomplete names once you have made a unique specification.  
 
-
-For example, if you navigate to your root directory by running the command **cd**, if you're on a Mac, you will probably have 2 folders within your root directory named "Downloads" and "Documents" (these are standard folder names created by default in most systems, although you may have renamed them, or your system may be different). With these, or longer folder names, it can sometimes become cumbersome to type the full folder name. instead, you can start typing the command and folder name such as **"cd Dow"** and then press **tab** to autocomplete. Like magic, the command line should complete the statement correctly to be **cd Downloads**. (Note: this will not work if you have another folder that begins with "Dow". Similarly, if you just typed **cd D** or **cd Do** followed by **tab**, the command line will not autocomplete, as the selection is not unique, because **D** or **Do** could both refer to either **Documents** or **Downloads**. Also note that these commands are case sensitive, and folder capitalization much be matched exactly.
+For example, if you navigate to your root directory by running the command `cd`, if you're on a Mac, you will probably have 2 folders within your root directory named "Downloads" and "Documents" (these are standard folder names created by default in most systems, although you may have renamed them, or your system may be different). With these, or longer folder names, it can sometimes become cumbersome to type the full folder name. instead, you can start typing the command and folder name such as `cd Dow` and then press **tab** to autocomplete. Like magic, the command line should complete the statement correctly to be `cd Downloads`. (Note: this will not work if you have another folder that begins with "Dow". Similarly, if you just typed `cd D` or `cd Do` followed by **tab**, the command line will not autocomplete, as the selection is not unique, because **D** or **Do** could both refer to either **Documents** or **Downloads**. Also note that these commands are case sensitive, and folder capitalization much be matched exactly.
 
 ### ls
 
-Continuing with navigating the computer's hard drive, it's useful to know how to **list files**. This is done with the **ls** command, short for list.
+Continuing with navigating the computer's hard drive, it's useful to know how to **list files**. This is done with the `ls` command, short for list.
 
-You can also pass optional parameters to ls such as **ls -a** which lists **all files** (including hidden files), **ls -l** gives a **long listing** of files (including file size and last edit times). You can also pass multiple parameters simultaneously such as **ls -al** to produce a detailed listing of all files.
+You can also pass optional parameters to `ls` such as `ls -a` which lists **all files** (including hidden files), `ls -l` gives a **long listing** of files (including file size and last edit times). You can also pass multiple parameters simultaneously, such as `ls -al` to produce a detailed listing of all files.
 
 ### * the wildcard parameter
 
-Also very useful is the wildcard parameter. For example, if you wanted to list all files in the current working directory that begin with a, you could type **`ls a*`**. Here, the asterix (`*`) denotes anything is allowed following the a. Similarly, to list all pdf files in the current working directory you can use **`ls *.pdf`**, or to list all text files, you can use **`ls *.txt`**.
+Also very useful is the wildcard parameter. For example, if you wanted to list all files in the current working directory that begin with a, you could type `ls a*`. Here, the asterix (`*`) denotes anything is allowed following the a. Similarly, to list all pdf files in the current working directory you can use `ls *.pdf`, or to list all text files, you can use `ls *.txt`.
 
 ### mkdir
 
-Finally, as you continue to navigate the file directory from the command line it can be useful to be able to create new folders. To do this, use the **mkdir** command, which stands for **make directory**. Try it out with **mkdir NewFolderName**. Afterward, use the **ls** command to see that there is indeed a new folder, and if you wish, move into the new folder using the **cd** command.
+Finally, as you continue to navigate the file directory from the command line it can be useful to be able to create new folders. To do this, use the `mkdir` command, which stands for **make directory**. Try it out with `mkdir NewFolderName`. Afterward, use the `ls` command to see that there is indeed a new folder, and if you wish, move into the new folder using the `cd` command.
 
 ## Cloning GitHub repositories and Canvas lessons
 
@@ -69,31 +69,32 @@ You have already read a little bit about GitHub and how it's used to share code.
 Don't worry if this process seems a little confusing. It will be explained in more detail soon. For now, you can just follow the steps below: 
 
 * Create a folder on your computer for your course materials and navigate into it  
-* Then create a subfolder titled "module_1" and navigate into that 
+    * You may also want to create a subfolder titled "phase_1" and navigate into that 
 * Return to your web browser and navigate to the lesson you want to download 
 * Click the GitHub icon 
 
-<img src="images/illumidesk_3.png">
+<img src="images/illumidesk_3.png" width="600">
 
-You'll be redirected to the associated GitHub repository like this.  
+You'll be redirected to the associated GitHub repository.
 
-* **Click the fork button**, as shown in order to create a copy to your personal account which you can edit and update.
-* 
-<img src="images/before-fork.png">
+* **Click the fork button**, as shown, in order to create a copy to your personal account which you can edit and update
+
+<img src="images/before-fork.png" width="600">
 
 One of two things will happen. Either it'll pop up a modal (window) and if you scroll to the bottom of it you'll see it says that you already have a fork. If that's the case, just click on the link to view your existing fork.
 
 If you don't already have a fork, you'll be redirected to your new personal copy of the repository:
 
-<img src="images/after-fork.png" width="900">
+<img src="images/after-fork.png" width="600">
 
 ## Finally 
-* Press **cmd + L** to highlight the url bar and **cmd + c** to copy the url (whenever we use `cmd` to refer to holding down the command key on a Mac computer, on a Windows computer, hold down the control key instead)
-* Return to the terminal (you should be in your "module_1" folder)
-* Type: **git clone** and paste your repo url (**cmd + v** for Mac; for Windows, in git bash, **shift + insert**)
+
+* Press **cmd + L** to highlight the url bar and **cmd + c** to copy the url (whenever we use **cmd** to refer to holding down the command key on a Mac computer, on a Windows computer, hold down the control key instead)
+* Return to the terminal (you should be in your course materials folder or your "phase_1" subfolder)
+* Type: `git clone` and paste your repo url (**cmd + v** for Mac; for Windows, in git bash, **shift + insert**)
 * Et Voila! The repository and all of its contents will be downloaded locally to your computer!
-* Remember that you then need to **cd** into the new repository once you've downloaded it
-* The next step is to open your Jupyter Notebook locally (**not on Canvas**) using the command line
+* Remember that you need to `cd` into the new repository once you've downloaded it 
+* The next step is to open your Jupyter Notebook locally (**not on Canvas/Illumidesk**) using the command line
 
 ## Starting the Jupyter Notebook
 
