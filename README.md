@@ -24,7 +24,7 @@ When you're a professional Data Scientist, you won't have access to Illumidesk, 
 
 ## The Command Line
 
-In order to be able to work locally, we first need to tell you a tiny bit about command line. On Mac computers, this is the terminal application. On Windows computers, we'll use "Git Bash". The command line serves as a low-level interpreter through which you, the user, can send commands directly to the computer. As a computer user, you previously have probably sent commands to the computer through a graphical user interface (GUI) such as a web browser, text editor, photo editor, or any other of the myriad of computer programs now in existence. While the command line is initially daunting with its cryptic looking text, we will quickly see some of the many advantages it can have.
+In order to be able to work locally, we first need to tell you a tiny bit about command line. On Mac computers, this is the terminal application. On Windows computers, we'll use "Git Bash". The command line serves as a low-level interpreter through which you, the user, can send commands directly to the computer. As a computer user, you previously have probably sent commands to the computer through a graphical user interface (GUI) such as a web browser, text editor, photo editor, or any other of the myriad computer programs now in existence. While the command line is initially daunting with its cryptic looking text, we will quickly see some of the many advantages it can have.
 
 One of the many useful features of the command line will be using *git* to clone (download) a local copy of the curriculum hosted on Canvas. This will allow you to work offline and to save changes as you work through exercises and start programming! 
 
@@ -42,7 +42,7 @@ The next essential command is **cd** which stands for **change directory**. This
 
 An extraordinarly useful feature when working with the command line is tab completion. This allows you to hit the tab button to autocomplete names once you have made a unique specification.  
 
-For example, if you navigate to your root directory by running the command `cd`, if you're on a Mac, you will probably have 2 folders within your root directory named "Downloads" and "Documents" (these are standard folder names created by default in most systems, although you may have renamed them, or your system may be different). With these, or longer folder names, it can sometimes become cumbersome to type the full folder name. instead, you can start typing the command and folder name such as `cd Dow` and then press **tab** to autocomplete. Like magic, the command line should complete the statement correctly to be `cd Downloads`. (Note: this will not work if you have another folder that begins with "Dow". Similarly, if you just typed `cd D` or `cd Do` followed by **tab**, the command line will not autocomplete, as the selection is not unique, because **D** or **Do** could both refer to either **Documents** or **Downloads**. Also note that these commands are case sensitive, and folder capitalization much be matched exactly.
+For example, if you navigate to your root directory by running the command `cd`, if you're on a Mac, you will probably have 2 folders within your root directory named "Downloads" and "Documents" (these are standard folder names created by default in most systems, although you may have renamed them, or your system may be different). With these, or longer folder names, it can sometimes become cumbersome to type the full folder name. Instead, you can start typing the command and folder name such as `cd Dow` and then press **tab** to autocomplete. Like magic, the command line should complete the statement correctly to be `cd Downloads`. (Note: this will not work if you have another folder that begins with "Dow". Similarly, if you just typed `cd D` or `cd Do` followed by **tab**, the command line will not autocomplete, as the selection is not unique, because **D** or **Do** could both refer to either **Documents** or **Downloads**. Also note that these commands are case sensitive, and folder capitalization much be matched exactly.
 
 ### ls
 
@@ -64,7 +64,7 @@ You have already read a little bit about GitHub and how it's used to share code.
 
 * **Fork** the course material repository: Forking is the process of making a personal copy of the Canvas course materials on your own GitHub account.
 
-* **Clone** the forked course material repository: Cloning is the process of downloading a repository from Github onto your personal computer. 
+* **Clone** the forked course material repository: Cloning is the process of downloading a repository from GitHub onto your personal computer. 
 
 Don't worry if this process seems a little confusing. It will be explained in more detail soon. For now, you can just follow the steps below: 
 
