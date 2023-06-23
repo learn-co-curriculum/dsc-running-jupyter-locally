@@ -112,7 +112,7 @@ If you don't already have a fork, you'll be redirected to your new personal copy
 
 ## Starting the Jupyter Notebook
 
-Make sure to activate your conda virtual environment in your terminal first by typing `source activate learn-env`. Then type `jupyter notebook` in your command line and press enter. Next, your default browser will open a new window or tab and you will see the list of files that are in your current directory (*remember you want to be in the GitHub repo directory that we just downloaded*). 
+Make sure to activate your conda virtual environment in your terminal first by typing `conda activate learn-env`. Then type `jupyter notebook` in your command line and press enter. Next, your default browser will open a new window or tab and you will see the list of files that are in your current directory (*remember you want to be in the GitHub repo directory that we just downloaded*). 
 
 > **Note:** To stop a Jupyter Notebook, go to your command line where the notebook is running and press the **control** key + the letter **c** (`ctrl`+`c`).
 
