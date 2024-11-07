@@ -13,28 +13,6 @@ You will be able to:
 * Use git clone to clone a repository
 * Work on your labs locally
 
-## Setting the Stage
-
-Remember how **Code Lessons** and **Labs** on Canvas use SaturnCloud (by clicking the gray button below) to open notebooks and start coding? 
-
-<img src="images/SC01.png" width="600">
-
-After you click "Click Here to Launch Lesson," you may see be asked to log into SaturnCloud by clicking "Continue with flatiron-school."
-
-You should only have to do this once, or at most only occasionally.
-
-<img src="images/SC02.png" width="600">
-
-If you do have to click "Continue with flatiron-school," then you will likely see the next screen where you click "Authorize." Again, you should only have to do this once, or at most only occasionally.
-
-<img src="images/SC03.png" width="600">
-
-While you should not see the previous two screens that often, the next screen you will see each time you click "Click Here to Launch Lesson" when you have not used the SaturnCloud server for at least an hour or so. Just wait the 30 - 45 seconds for the server to spin up, then it will automatically open the ipython notebook.
-
-<img src="images/SC04.png" width="600">
-
-When you're a professional Data Scientist, you likely won't have access to SaturnCloud, but you'll need to get everything up and running to work on your local machine. Luckily, you've already set up a professional data science environment, and in this lesson you'll learn how to actually run your code on your local machine instead of through SaturnCloud!
-
 ## The Command Line
 
 In order to be able to work locally, we first need to tell you a tiny bit about command line. On Mac computers, this is the terminal application. On Windows computers, we'll use "Git Bash". The command line serves as a low-level interpreter through which you, the user, can send commands directly to the computer. As a computer user, you previously have probably sent commands to the computer through a graphical user interface (GUI) such as a web browser, text editor, photo editor, or any other of the myriad computer programs now in existence. While the command line is initially daunting with its cryptic looking text, we will quickly see some of the many advantages it can have.
